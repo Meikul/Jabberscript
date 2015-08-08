@@ -1,0 +1,22 @@
+#input{
+  position: absolute;
+  top: 50px;
+  left: 50px;
+  height: 500px;
+  width: 700px;
+  font-size:15pt;
+  font-family: arial;
+}
+
+#submit{
+  position:absolute;
+  top:50px;
+  left:800px;
+  height:20px;
+  width: 100px;
+  border:1px solid black;
+  font-size:15pt;
+  font-family: arial;
+  text-align:center;
+  cursor:pointer;
+}
