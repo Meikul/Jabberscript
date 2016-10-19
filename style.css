@@ -1,11 +1,46 @@
+body{
+  background: #101012;
+}
+
+::selection{
+  background: white;
+  color:#101012;
+}
+
+#prompt{
+  position: absolute;
+  left: 20px;
+  top: 53px;
+  font-size: 12pt;
+  font-family: Lekton;
+  color: #eeeeee;
+}
+
 #input{
   position: absolute;
   top: 50px;
-  left: 50px;
+  left: 90px;
+  height: 32px;
+  width: 700px;
+  font-size:12pt;
+  font-family: Lekton;
+  background: #101012;
+  border: none;
+  resize: none;
+  outline: none;
+  color: #eeeeee;
+}
+
+#log{
+  position: absolute;
+  top: 90px;
+  left: 90px;
   height: 500px;
   width: 700px;
-  font-size:15pt;
-  font-family: 'Roboto Slab', serif;
+  font-size: 12pt;
+  background: #101012;
+  font-family: Lekton;
+  color: #eeeeee;
 }
 
 #submit{
@@ -30,6 +65,7 @@
   text-align:center;
   width:100px;
   height:460px;
+  color:#eeeeee;
 }
 #script{
   font-size:10pt;
